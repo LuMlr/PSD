@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+  }
+  .container {
+    display:grid;
+  }
