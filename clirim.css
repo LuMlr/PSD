@@ -1,0 +1,61 @@
+.clirim {
+    display: flex;
+    border:1px solid black;
+    justify-content: center
+}
+
+#spanleft {
+    width:50%;
+    justify-content: flex-end;
+    border:1px solid black;
+}
+#spanleft img {
+    padding-right: 5%;
+}
+#spanright {
+    width: 50%;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#spanright h2,
+#spanright p,
+#spanright button {
+    padding: 20px;
+}
+
+#paragraphs {
+    display: block;
+}
+#spanright p {
+    width:300px;
+    padding-bottom:20px;
+    opacity: 0.8;
+}
+
+.clirim2 {
+    background-image: url(media/bgk-middle.png);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+ #video{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-transform: uppercase;
+    justify-content: center;
+ }
+
+ #video img {
+    padding-bottom: 20px;
+ }
+
+
+
+
