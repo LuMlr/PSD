@@ -1,20 +1,19 @@
 .clirim {
     display: flex;
-    border:1px solid black;
-    justify-content: center
+    justify-content: center;
 }
-
+.clirim h2 {
+    text-transform: uppercase;
+}
 #spanleft {
     width:50%;
     justify-content: flex-end;
-    border:1px solid black;
 }
 #spanleft img {
     padding-right: 5%;
 }
 #spanright {
     width: 50%;
-    border:1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
