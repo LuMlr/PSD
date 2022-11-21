@@ -1,0 +1,78 @@
+.lukas{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: grid;
+grid-template-rows: 1fr 2fr 2fr;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lukas-header{
+grid-column-start: 1;
+grid-column-end: 4;
+}
+
+.section-title{
+text-align: center;
+font-size: xx-large;
+}
+
+.header-text{
+text-align: center;
+}
+
+.row{
+background-color: black;
+opacity: 0.3;
+height: 2px;
+width: 7%;
+margin: auto;
+margin-top: 15px;
+}
+
+.box1-title{
+font-weight: bold;
+}
+
+.box1{
+flex-direction: column;
+text-align: center;
+grid-column-start: 1;
+grid-column-end: 2;
+border-right: 1px solid rgb(184, 180, 180);
+border-bottom: 1px solid rgb(184,180,180);
+
+}
+
+.box2{;
+text-align: center;
+grid-column-start: 2;
+grid-column-end: 3;
+border-right: 1px solid rgb(184, 180, 180);
+border-bottom: 1px solid rgb(184,180,180);
+}
+
+.box3{
+text-align: center;
+grid-column-start: 3;
+grid-column-end: 4;
+border-bottom: 1px solid rgb(184,180,180);
+
+}
+
+.box4{
+text-align: center;
+grid-column-start: 1;
+grid-column-end: 2;
+border-right: 1px solid rgb(184, 180, 180);
+
+}
+.box5{
+text-align: center;
+grid-column-start: 2;
+grid-column-end: 3;
+border-right: 1px solid rgb(184, 180, 180);
+}
+.box6{
+text-align: center;
+grid-column-start: 3;
+grid-column-end: 4;
+}
